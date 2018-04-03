@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        img {
+            max-width: 100%;
+        }
+        
+        .foo,
+        .bar {
+            width: 500px;
+            height: 200px;
+            display: inline-block;
+            background-color: aqua;
+            margin: 10px;
+            /* line-height: 200px; */
+            text-align: center;
+        }
+        
+        .bar {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="foo">
+        <img src="./1.jpg" alt="">
+    </div>
+    <div class="bar">
+        <img src="./2.jpg" alt="">
+    </div>
+    <div class="foo">
+        <img src="./1.jpg" alt="">
+    </div>
+    <div class="bar">
+        <img src="./2.jpg" alt="">
+    </div>
+    <div class="foo">
+        <img src="./1.jpg" alt="">
+    </div>
+    <div class="bar">
+        <img src="./2.jpg" alt="">
+    </div>
+    <div class="foo">
+        <img src="./1.jpg" alt="">
+    </div>
+    <div class="bar">
+        <img src="./2.jpg" alt="">
+    </div>
+    <div class="foo">
+        <img src="./1.jpg" alt="">
+    </div>
+    <div class="bar">
+        <img src="./2.jpg" alt="">
+    </div>
+    <div class="foo">
+        <img src="./1.jpg" alt="">
+    </div>
+    <div class="bar">
+        <img src="./2.jpg" alt="">
+    </div>
+    <div class="foo">
+        <img src="./1.jpg" alt="">
+    </div>
+    <div class="bar">
+        <img src="./2.jpg" alt="">
+    </div>
+    <div class="foo">
+        <img src="./1.jpg" alt="">
+    </div>
+    <div class="bar">
+        <img src="./2.jpg" alt="">
+    </div>
+    <div class="foo">
+        <img src="./1.jpg" alt="">
+    </div>
+    <div class="bar">
+        <img src="./2.jpg" alt="">
+    </div>
+    <div class="foo">
+        <img src="./1.jpg" alt="">
+    </div>
+    <div class="bar">
+        <img src="./2.jpg" alt="">
+    </div>
+    <div class="foo">
+        <img src="./1.jpg" alt="">
+    </div>
+    <div class="bar">
+        <img src="./2.jpg" alt="">
+    </div>
+    <div class="foo">
+        <img src="./1.jpg" alt="">
+    </div>
+    <div class="bar">
+        <img src="./2.jpg" alt="">
+    </div>
+    <div class="foo">
+        <img src="./1.jpg" alt="">
+    </div>
+    <div class="bar">
+        <img src="./2.jpg" alt="">
+    </div>
+    <div class="foo">
+        <img src="./1.jpg" alt="">
+    </div>
+    <div class="bar">
+        <img src="./2.jpg" alt="">
+    </div>
+    <script src="./scrollreveal.min.js"></script>
+    <script>
+        window.sr = ScrollReveal({
+            reset: true
+        });
+        sr.reveal('.foo', {
+            duration: 500,
+            origin: 'left',
+            // scale: 2.9,
+            opacity: 0,
+            delay: 0,
+            easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+            mobile: true,
+            useDelay: 'always',
+            viewFactor: 0.2,
+            viewOffset: {
+                top: 10,
+                right: 5,
+                bottom: 5,
+                left: 0
+            }
+        });
+        sr.reveal('.bar', {
+            duration: 500,
+            origin: 'right'
+        });
+    </script>
+</body>
+
+</html>
